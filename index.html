@@ -10,7 +10,42 @@
         <meta property="og:site_name" content="tranvanhao.com/bio" />
         <meta property="og:description" content="Thông tin liên hệ, danh sách kênh truyền thông, danh sách nhóm Facebook Telegram - Trần Văn Hảo." />
         <style>
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(font/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUjm6bnEr.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(font/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUje6bg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(font/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUjm6bnEr.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(font/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUje6bg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /* main css */
 :root {
     --bgColor:#ffffff;
@@ -28,28 +63,6 @@ body{
     display: block;
     margin: 35px auto 20px;
     border-radius: 50%;
-}
-#userName1{
-    color: #080808;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.25;
-    display: block;
-    font-family: var(--font);
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-}
-#userName2{
-    color: #080808;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.25;
-    display: block;
-    font-family: var(--font);
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
 }
 #links{
     max-width: 675px;
@@ -93,6 +106,12 @@ h6{
     color: rgb(136, 136, 136);
     font-family: var(--font);
 }
+p{
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    font-family: var(--font);
+}
 .atrib{
     text-align: center;
     display: block;
@@ -109,7 +128,7 @@ h6{
     <body>
         <img id="userPhoto" src="https://tranvanhao.com/assets/images/haoavata.svg" alt="tran-van-hao">
         <h1>Trần Văn Hảo</h1>
-        <p id="userName1">Xin chào! Tôi là Trần Văn Hảo sn 1992, đây là Website thông tin của tôi. Tôi tham gia chứng khoán từ 2014 và đang làm tư vấn chứng khoán Việt Nam, hàng hóa phái sinh. Liên hệ 0914242192</p>
+        <p>Xin chào! Tôi là Trần Văn Hảo sn 1992, đây là Website thông tin của tôi. Tôi tham gia chứng khoán từ năm 2014 và đang làm tư vấn chứng khoán Việt Nam, hàng hóa phái sinh. Liên hệ 0914242192</p>
         <div id="links">
             <h2>Nhóm Facebook</h2>
             <a class="link" href="https://www.facebook.com/groups/dautuchungkhoanhanghoaphaisinh" target="_blank">Group Facebook chung</a>
@@ -118,6 +137,8 @@ h6{
             <a class="link" href="https://t.me/+nIvcfx-Ol5IxYzhl" target="_blank">Room Telegram chung</a>
             <a class="link" href="https://t.me/+tT0gdre0e-1hN2Jl" target="_blank">Room Chứng khoán</a>
             <a class="link" href="https://t.me/+lw_shR2D3-IwZTI1" target="_blank">Room Hàng hóa PS</a>
+            <h2>Nhóm Zalo</h2>
+            <a class="link" href="https://zalo.me/g/dndpaa145" target="_blank">Room Hàng hóa phái sinh</a>
             <h2>Hướng dẫn Mở tài khoản</h2>
             <a class="link" href="https://www.youtube.com/watch?v=jnTM7m39NAQ&list=PLfWs2y2IbYmoltuuhdy02u70btH_q3OCF" target="_blank">Mở TK Chứng khoán VN</a>
             <a class="link" href="https://www.youtube.com/watch?v=U8PDk02Ir38&list=PLfWs2y2IbYmo5hRdOOKIVQYv8VyArsqsm" target="_blank">Mở TK Hàng hóa PS</a> 
@@ -131,9 +152,9 @@ h6{
             <a class="link" href="https://tranvanhao.com/bai-viet/" target="_blank">Blog</a>
             <a class="link" href="https://shop.tranvanhao.com/" target="_blank">Shop</a>
         </div>
-        <a href="mailto:tranhaovcu@gmail.com" id="userName2">Email Me</a>
+        <p><a href="mailto:tranhaovcu@gmail.com">Email Me</a></p>
         <a class="atrib" href="https://tranvanhao.com" target="_blank">Thiết kế bởi Trần Hảo ❤️</a>
-        <p>Lưu ý: các thông tin liên hệ của tôi trong website này, tôi không chịu trách nhiệm với các thông tin khác mạo danh tôi</p>
+        <p>Lưu ý: các thông tin liên hệ của tôi đều ở trong website này, tôi không chịu trách nhiệm với các thông tin khác mạo danh tôi</p>
         <a href="//www.dmca.com/Protection/Status.aspx?ID=a0524fc4-a601-443f-8cd0-818adab31d54" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=a0524fc4-a601-443f-8cd0-818adab31d54"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
     </body>
 </html>
